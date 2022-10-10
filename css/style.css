@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+li, h3 {
+    cursor: pointer;
+}
+
+
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -424,8 +429,8 @@ body {
 .catagories-text {
     list-style: none;
     color: #666666;
-    display: flex;
-    justify-content: start;
+    margin-left: 0;
+    padding-left: 0%;
 }
 
 .catagories-text li {
@@ -433,6 +438,11 @@ body {
     margin-left: 10px;
     color: #666666;
     cursor: pointer;
+    transition: 500ms;
+}
+
+.catagories-text li:hover {
+    margin-left: 20px;
 }
 
 .catagories-text li i {
@@ -441,4 +451,69 @@ body {
 
 .catagories-text li span {
     margin-left: 25px;
+    color: #fec722;
+}
+
+
+
+.catagories-text-sosial {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0%;
+}
+
+.catagories-text-sosial li {
+    display: inline-block;
+    margin: 0 9px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: block;
+    height: 38px;
+    width: 160px;
+    padding-left: 10px;
+    padding-top: 9px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.catagories-text-sosial li i {
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: rgba(238, 238, 238, 0) !important;
+}
+
+.catagories-text-sosial :nth-child(1) {
+    background-color: #ffa801;
+}
+.catagories-text-sosial :nth-child(2) {
+    background-color: #1da1f2;
+}
+.catagories-text-sosial :nth-child(3) {
+    background-color: #3b59a1 ;
+}
+.catagories-text-sosial :nth-child(4) {
+    background-color: #bd081c ;
+}
+.catagories-text-sosial :nth-child(5) {
+    background-color: #f56040 ;
+}
+.catagories-text-sosial :nth-child(6) {
+    background-color: #dd4b39 ;
+}
+
+
+
+
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.blog_1 .blog-area .blog_side-right .recent-work .row-padding-bottom img {
+    width: 100px;
+    float: left;
+    margin: 10px;
 }
