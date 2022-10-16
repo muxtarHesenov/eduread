@@ -89,6 +89,7 @@ const blogList = document.getElementById('blog-list');
 
 homePlus.addEventListener('click',() => {
     if (homeList.style.display == 'none') {
+        homeList.style.transition = 500 + 'ms'
         homeList.style.display = 'block';
         homePlus.innerHTML = '-';
     } else {
@@ -184,5 +185,34 @@ blogPlus.addEventListener('click',() => {
     } else {
         blogList.style.display = 'none';
         blogPlus.innerHTML = '+';
+    }
+});
+
+
+
+let body = document.getElementsByTagName('body')[0];
+let navHeader = document.getElementById('nav-header');
+let meanBar = document.getElementsByClassName('mean-bar')[0] ;
+
+let fullPage = document.getElementById('fullPage');
+
+
+window.addEventListener('scroll', () => {
+
+    if(window.scrollY > 100) {
+        navHeader.style.backgroundColor = 'white';
+        navHeader.style.color = 'black';
+        navHeader.style.position = 'fixed';
+        navHeader.style.top = '0';
+    }
+});
+
+window.addEventListener('scroll', () => {
+
+    if(window.scrollY < 100) {
+        navHeader.style.backgroundColor = 'transparent';
+        navHeader.style.color = 'white';
+        navHeader.style.position = 'relative';
+        navHeader.style.top = '0';
     }
 });

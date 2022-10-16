@@ -1,5 +1,72 @@
-@media only screen and (max-width: 990px) {
-    .navs {
-      display: none;
-    }
+@media only screen and (max-width: 1300px) {
+  .navs {
+    margin-right: 5%;
   }
+
+  .nav-logo {
+    margin-left: 5%;
+  }
+
+}
+
+
+@media only screen and (max-width: 990px) {
+  .navs {
+    display: none;
+  }
+
+  .mean-bar {
+    display: block;
+  }
+
+  .nav-logo {
+    margin-left: 18%;
+  }
+
+  .second-header {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: row;
+  }
+
+  .recent-text {
+    width: 58%;
+
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .connect {
+    margin-left: 0px;
+  }
+
+  .login {
+    margin-right: 1%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .second-header i {
+    margin-left: 2px;
+  }
+
+  .second-header {
+    flex-wrap: wrap;
+  }
+
+  .single-post-text ul {
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom-inner {
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+}
+}

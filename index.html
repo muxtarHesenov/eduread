@@ -29,684 +29,711 @@
 </head>
 
 <body>
-
-    <nav class="nav">
-        <div class="first-header">
-            <div class="logo"></div>
-            <button class="buy-now btn ">Buy now</button>
-        </div>
+    <div id="fullPage" onscroll="myFunction()" class="full-page">
+        <nav class="nav">
 
 
-        <div class="mean-bar">
-            <a id="open-mobile" href="#" class="meanmenu-reveal "
-                style="right: 5px; left: auto; text-align: center; text-indent: 0px; font-size: 18px;">
-                <span></span><span></span><span></span>
-            </a>
-            <a id="close-mobile" href="#" class="meanmenu-reveal meanclose"
-                style="right: 0px; left: auto; text-align: center; text-indent: 0px; font-size: 18px;display: none;">X</a>
-            <nav class="mean-nav">
-                <ul id="mobil-list" class="nav navbar-nav pull-right" style="display: none;">
-                    <li><a  href="">Home
 
-                        </a>
-                        <!-- dropdwon start -->
-                        <ul id="home-list" class="dropdown list-unstyled" style="display: none;">
-                            <li><a href="#">Home Version One</a></li>
-                            <li><a href="#">Home Version Two</a></li>
-                            <li><a href="#">Home Version Three</a></li>
-                            <li><a href="#">Home Version Four</a></li>
-                        </ul>
-                        <!-- dropdown end -->
-                        <a id="home-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                    </li>
-                    <li><a  href="#">Courses</a>
-                        <!-- dropdwon start -->
-                        <ul id="course-list" class="dropdown list-unstyled" style="display: none;">
-                            <li><a href="#">Course Style One</a></li>
-                            <li><a href="#">Course Style Two</a></li>
-                            <li><a href="#">Course Style Three</a></li>
-                            <li class="dropdown-list-box-02"><a href="#">Dropdown</i></a>
-                                <ul id="course-list-2" class="dropdown-list_2 list-unstyled" style="display: none;">
-                                    <li><a href="#">Label One</a></li>
-                                    <li><a href="#">Label One</a></li>
-                                    <li><a href="#">Label One</a></li>
-                                    <li class="dropdown-list-box-03"><a href="#">Label One</a>
-                                        <ul id="course-list-3" class="dropdown-list_3 list-unstyled" style="display: none;">
-                                            <li><a href="#">Label Two</a></li>
-                                            <li><a href="#">Label Two</a></li>
-                                        </ul>
-                                        <a id="course-plus-3" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                                    </li>
-                                </ul>
-                                <a id="course-plus-2" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                            </li>
-                            <li><a href="#">Course Carousel Style</a></li>
-                            <li><a href="#">Course Details</a></li>
-                            <li><a href="#">Course Details Sidebar</a></li>
-                        </ul>
-                        <!-- dropdown end -->
-                        <a id="course-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                    </li>
-                    <li><a  href="#">Event</a>
-                        <!-- dropdwon start -->
-                        <ul id="event-list" class="dropdown list-unstyled" style="display: none;">
-                            <li><a href="#">Event List One</a></li>
-                            <li><a href="#">Event List Two</a></li>
-                            <li><a href="#">Event Two Grid</a></li>
-                            <li><a href="#">Event Three Grid</a></li>
-                            <li><a href="#">Event Details</a></li>
-                        </ul>
-                        <!-- dropdown end -->
-                        <a id="event-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                    </li>
-                    <li><a  href="#">Pages</a>
-                        <ul id="pages-list" class="list-unstyled dropdown" style="display: none;">
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Teachers</a></li>
-                            <li class="dropdown-list-box-02"><a href="#">Dropdown<i
-                                        class="fa fa-angle-right menu-icon"></i></a>
-                                <ul id="pages-list-2" class="dropdown-list_2 list-unstyled" style="display: none;">
-                                    <li><a href="#">Label One</a></li>
-                                    <li><a href="#">Label One</a></li>
-                                    <li><a href="#">Label One</a></li>
-                                    <li class="dropdown-list-box-03"><a href="#">Label One<i
-                                                class="fa fa-angle-right menu-icon"></i></a>
-                                        <ul id="pages-list-3" class="dropdown-list_3 list-unstyled" style="display: none;">
-                                            <li><a href="#">Label Two</a></li>
-                                            <li><a href="#">Label Two</a></li>
-                                        </ul>
-                                        <a id="pages-plus-3" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                                    </li>
-                                </ul>
-                                <a id="pages-plus-2" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                            </li>
-                            <li><a href="#">Teachers Porfile</a></li>
-                            <li><a href="#">Become a Teacher</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Registation</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Post</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                        <a id="pages-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                    </li>
-                    <li><a data-scroll="" href="#">Teachers</a>
-                        <!-- dropdwon start -->
-                        <ul id="teachers-list" class="dropdown list-unstyled" style="display: none;">
-                            <li><a href="#">Teachers Style One</a></li>
-                            <li><a href="#">Teachers Style Two</a></li>
-                            <li><a href="#">Teachers Porfile</a></li>
-                            <li><a href="#">Become a Teacher</a></li>
-                        </ul>
-                        <!-- dropdown end -->
-                        <a id="teachers-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                    </li>
-                    <li><a data-scroll="" href="#">Blog</a>
-                        <!-- dropdwon start -->
-                        <ul id="blog-list" class="dropdown list-unstyled" style="display: none;">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Blog Post</a></li>
-                        </ul>
-                        <!-- dropdown end -->
-                        <a id="blog-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
-                    </li>
-                    <li><a data-scroll="" href="#">Contact</a></li>
+            <div class="mean-bar">
+                <a id="open-mobile" href="#" class="meanmenu-reveal "
+                    style="right: 5px; left: auto; text-align: center; text-indent: 0px; font-size: 18px;">
+                    <span></span><span></span><span></span>
+                </a>
+                <a id="close-mobile" href="#" class="meanmenu-reveal meanclose"
+                    style="right: 0px; left: auto; text-align: center; text-indent: 0px; font-size: 18px;display: none;">X</a>
+                <nav class="mean-nav">
+                    <ul id="mobil-list" class="nav navbar-nav pull-right" style="display: none;">
+                        <li><a href="">Home
 
-                </ul>
-            </nav>
-        </div>
+                            </a>
+                            <!-- dropdwon start -->
+                            <ul id="home-list" class="dropdown list-unstyled" style="display: none;">
+                                <li><a href="#">Home Version One</a></li>
+                                <li><a href="#">Home Version Two</a></li>
+                                <li><a href="#">Home Version Three</a></li>
+                                <li><a href="#">Home Version Four</a></li>
+                            </ul>
+                            <!-- dropdown end -->
+                            <a id="home-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                        </li>
+                        <li><a href="#">Courses</a>
+                            <!-- dropdwon start -->
+                            <ul id="course-list" class="dropdown list-unstyled" style="display: none;">
+                                <li><a href="#">Course Style One</a></li>
+                                <li><a href="#">Course Style Two</a></li>
+                                <li><a href="#">Course Style Three</a></li>
+                                <li class="dropdown-list-box-02"><a href="#">Dropdown</i></a>
+                                    <ul id="course-list-2" class="dropdown-list_2 list-unstyled" style="display: none;">
+                                        <li><a href="#">Label One</a></li>
+                                        <li><a href="#">Label One</a></li>
+                                        <li><a href="#">Label One</a></li>
+                                        <li class="dropdown-list-box-03"><a href="#">Label One</a>
+                                            <ul id="course-list-3" class="dropdown-list_3 list-unstyled"
+                                                style="display: none;">
+                                                <li><a href="#">Label Two</a></li>
+                                                <li><a href="#">Label Two</a></li>
+                                            </ul>
+                                            <a id="course-plus-3" class="mean-expand" href="#"
+                                                style="font-size: 18px">+</a>
+                                        </li>
+                                    </ul>
+                                    <a id="course-plus-2" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                                </li>
+                                <li><a href="#">Course Carousel Style</a></li>
+                                <li><a href="#">Course Details</a></li>
+                                <li><a href="#">Course Details Sidebar</a></li>
+                            </ul>
+                            <!-- dropdown end -->
+                            <a id="course-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                        </li>
+                        <li><a href="#">Event</a>
+                            <!-- dropdwon start -->
+                            <ul id="event-list" class="dropdown list-unstyled" style="display: none;">
+                                <li><a href="#">Event List One</a></li>
+                                <li><a href="#">Event List Two</a></li>
+                                <li><a href="#">Event Two Grid</a></li>
+                                <li><a href="#">Event Three Grid</a></li>
+                                <li><a href="#">Event Details</a></li>
+                            </ul>
+                            <!-- dropdown end -->
+                            <a id="event-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                        </li>
+                        <li><a href="#">Pages</a>
+                            <ul id="pages-list" class="list-unstyled dropdown" style="display: none;">
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Teachers</a></li>
+                                <li class="dropdown-list-box-02"><a href="#">Dropdown<i
+                                            class="fa fa-angle-right menu-icon"></i></a>
+                                    <ul id="pages-list-2" class="dropdown-list_2 list-unstyled" style="display: none;">
+                                        <li><a href="#">Label One</a></li>
+                                        <li><a href="#">Label One</a></li>
+                                        <li><a href="#">Label One</a></li>
+                                        <li class="dropdown-list-box-03"><a href="#">Label One<i
+                                                    class="fa fa-angle-right menu-icon"></i></a>
+                                            <ul id="pages-list-3" class="dropdown-list_3 list-unstyled"
+                                                style="display: none;">
+                                                <li><a href="#">Label Two</a></li>
+                                                <li><a href="#">Label Two</a></li>
+                                            </ul>
+                                            <a id="pages-plus-3" class="mean-expand" href="#"
+                                                style="font-size: 18px">+</a>
+                                        </li>
+                                    </ul>
+                                    <a id="pages-plus-2" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                                </li>
+                                <li><a href="#">Teachers Porfile</a></li>
+                                <li><a href="#">Become a Teacher</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Registation</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Post</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <a id="pages-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                        </li>
+                        <li><a data-scroll="" href="#">Teachers</a>
+                            <!-- dropdwon start -->
+                            <ul id="teachers-list" class="dropdown list-unstyled" style="display: none;">
+                                <li><a href="#">Teachers Style One</a></li>
+                                <li><a href="#">Teachers Style Two</a></li>
+                                <li><a href="#">Teachers Porfile</a></li>
+                                <li><a href="#">Become a Teacher</a></li>
+                            </ul>
+                            <!-- dropdown end -->
+                            <a id="teachers-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                        </li>
+                        <li><a data-scroll="" href="#">Blog</a>
+                            <!-- dropdwon start -->
+                            <ul id="blog-list" class="dropdown list-unstyled" style="display: none;">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog Post</a></li>
+                            </ul>
+                            <!-- dropdown end -->
+                            <a id="blog-plus" class="mean-expand" href="#" style="font-size: 18px">+</a>
+                        </li>
+                        <li><a data-scroll="" href="#">Contact</a></li>
 
-
-        <div class="second-header">
-            <div class="connect">
-                <i class="fa fa-phone"></i>
-                +123 456 789
-                <i class="fa fa-envelope"></i>
-                hello@eduread.com
+                    </ul>
+                </nav>
             </div>
 
-            <div class="login">
-                <i class="fa fa-user-plus"></i>
-                Sing up
 
-                <i class="fa fa-lock"></i>
-                Login
-            </div>
-
-        </div>
-
-        <div class="bg-header">
-            <img class="banner" src="/Img/banner-bg.jpg" alt="">
-            <div class="nav-header">
-                <div class="nav-logo">
-                    <img src="Img/logo.png" alt="">
-                    <span>EDUREAD</span>
+            <div class="second-header">
+                <div class="connect">
+                    <i class="fa fa-phone"></i>
+                    +123 456 789
+                    <i class="fa fa-envelope"></i>
+                    hello@eduread.com
                 </div>
-                <ul class="navs">
-                    <li class="navs-item">HOME
-                        <div class="arrow"></div>
-                        <div class="dropdrow-home">
-                            <ul>
-                                <li>Home Version One</li>
-                                <li>Home Version Two</li>
-                                <li>Home Version Three</li>
-                                <li>Home Version Four</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navs-item">COURSES
-                        <div class="arrow"></div>
-                        <div class="dropdrow-home">
-                            <ul>
-                                <li>Cours Style One</li>
-                                <li>Cours Style Two</li>
-                                <li>Cours Style Three</li>
-                                <li class="course-drop">Dropdown
-                                    <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
-                                    <div class="dropdrow-home next">
-                                        <ul>
-                                            <li>Label One</li>
-                                            <li>Label One</li>
-                                            <li>Label One</li>
-                                            <li class="course-drop-1">Label One
-                                                <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
-                                                <div class="dropdrow-home next-1">
-                                                    <ul>
-                                                        <li>Label Two</li>
-                                                        <li>Label Two</li>
 
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>Course Carousel Style</li>
-                                <li>Course Detsils</li>
-                                <li>Course Details Sidebar</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navs-item">EVENT
-                        <div class="arrow"></div>
-                        <div class="dropdrow-home">
-                            <ul>
-                                <li>Event List One</li>
-                                <li>Event List Two</li>
-                                <li>Event List Grid</li>
-                                <li>Event List Grid</li>
-                                <li>Event Detsils</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navs-item">PAGES
-                        <div class="arrow"></div>
-                        <div class="dropdrow-home">
-                            <ul>
-                                <li>Courses</li>
-                                <li>Event</li>
-                                <li>Galery</li>
-                                <li>Teachers</li>
-                                <li class="course-drop">Dropdown
-                                    <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
-                                    <div class="dropdrow-home next">
-                                        <ul>
-                                            <li>Label One</li>
-                                            <li>Label One</li>
-                                            <li>Label One</li>
-                                            <li class="course-drop-1">Label One
-                                                <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
-                                                <div class="dropdrow-home next-1">
-                                                    <ul>
-                                                        <li>Label Two</li>
-                                                        <li>Label Two</li>
+                <div class="login">
+                    <i class="fa fa-user-plus"></i>
+                    Sing up
 
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>Teachers Profile</li>
-                                <li>Become a Teacher</li>
-                                <li>Login</li>
-                                <li>Registration</li>
-                                <li>Blog</li>
-                                <li>Post</li>
-                                <li>Contact</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navs-item">TEACHERS
-                        <div class="arrow"></div>
-                        <div class="dropdrow-home">
-                            <ul>
-                                <li>Teachers List One</li>
-                                <li>Teachers List Two</li>
-                                <li>Teachers List Grid</li>
-                                <li>Teachers List Grid</li>
-                                <li>Teachers Detsils</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navs-item">BLOG
-                        <div class="arrow"></div>
-                        <div class="dropdrow-home">
-                            <ul>
-                                <li>Blog</li>
-                                <li>Blog Post</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navs-item">CONTACT</li>
-                    <li class="navs-item">
-                        <i class="fa fa-search "></i>
-                    </li>
+                    <i class="fa fa-lock"></i>
+                    Login
+                </div>
 
-                </ul>
             </div>
+
+            <div class="bg-header">
+                <img class="banner" src="/Img/banner-bg.jpg" alt="">
+                <div id="nav-header" class="nav-header">
+                    <div class="nav-logo">
+                        <img src="Img/logo.png" alt="">
+                        <span>EDUREAD</span>
+                    </div>
+                    <ul class="navs">
+                        <li class="navs-item">HOME
+                            <div class="arrow"></div>
+                            <div class="dropdrow-home">
+                                <ul>
+                                    <li>Home Version One</li>
+                                    <li>Home Version Two</li>
+                                    <li>Home Version Three</li>
+                                    <li>Home Version Four</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navs-item">COURSES
+                            <div class="arrow"></div>
+                            <div class="dropdrow-home">
+                                <ul>
+                                    <li>Cours Style One</li>
+                                    <li>Cours Style Two</li>
+                                    <li>Cours Style Three</li>
+                                    <li class="course-drop">Dropdown
+                                        <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
+                                        <div class="dropdrow-home next">
+                                            <ul>
+                                                <li>Label One</li>
+                                                <li>Label One</li>
+                                                <li>Label One</li>
+                                                <li class="course-drop-1">Label One
+                                                    <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
+                                                    <div class="dropdrow-home next-1">
+                                                        <ul>
+                                                            <li>Label Two</li>
+                                                            <li>Label Two</li>
+
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Course Carousel Style</li>
+                                    <li>Course Detsils</li>
+                                    <li>Course Details Sidebar</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navs-item">EVENT
+                            <div class="arrow"></div>
+                            <div class="dropdrow-home">
+                                <ul>
+                                    <li>Event List One</li>
+                                    <li>Event List Two</li>
+                                    <li>Event List Grid</li>
+                                    <li>Event List Grid</li>
+                                    <li>Event Detsils</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navs-item">PAGES
+                            <div class="arrow"></div>
+                            <div class="dropdrow-home">
+                                <ul>
+                                    <li>Courses</li>
+                                    <li>Event</li>
+                                    <li>Galery</li>
+                                    <li>Teachers</li>
+                                    <li class="course-drop">Dropdown
+                                        <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
+                                        <div class="dropdrow-home next">
+                                            <ul>
+                                                <li>Label One</li>
+                                                <li>Label One</li>
+                                                <li>Label One</li>
+                                                <li class="course-drop-1">Label One
+                                                    <span class="drop-arrow"> <i class="fa fa-angle-right"></i> </span>
+                                                    <div class="dropdrow-home next-1">
+                                                        <ul>
+                                                            <li>Label Two</li>
+                                                            <li>Label Two</li>
+
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>Teachers Profile</li>
+                                    <li>Become a Teacher</li>
+                                    <li>Login</li>
+                                    <li>Registration</li>
+                                    <li>Blog</li>
+                                    <li>Post</li>
+                                    <li>Contact</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navs-item">TEACHERS
+                            <div class="arrow"></div>
+                            <div class="dropdrow-home">
+                                <ul>
+                                    <li>Teachers List One</li>
+                                    <li>Teachers List Two</li>
+                                    <li>Teachers List Grid</li>
+                                    <li>Teachers List Grid</li>
+                                    <li>Teachers Detsils</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navs-item">BLOG
+                            <div class="arrow"></div>
+                            <div class="dropdrow-home">
+                                <ul>
+                                    <li>Blog</li>
+                                    <li>Blog Post</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navs-item">CONTACT</li>
+                        <li class="navs-item">
+                            <i class="fa fa-search "></i>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="blog-post-intro">
+                        <h1 class="">Blog Page</h1>
+                        <span>Home <i class="fa fa-angle-right"></i> <span class="blog-page-small">Blog Page</span>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- START BLOG AREA -->
+
+        <!-- START LEFT BLOG AREA -->
+        <div class="container blog-area">
+            <div class="row">
+                <div class="col-sm-8 left-blog">
+                    <div class="single-post">
+                        <div class="img-div post-margin">
+                            <div class="date-box">
+                                <span>22</span>
+                                <span>Aug</span>
+                            </div>
+                            <img class="img-responsive" src="Img/blog-02.jpg" alt="">
+                            <div class="effect"></div>
+                        </div>
+                        <div class="single-post-text">
+                            <h3>Students in Class Room</h3>
+                            <ul class="post-text-list">
+                                <li>By Admin</li>
+                                <li>22Aug, 2019</li>
+                                <li> comments</li>
+                                <li>122 likes</li>
+                            </ul>
+                            <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                                est,
+                                qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                                eius
+                                modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
+                            <div class="btn-text">
+                                Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-post">
+                        <div class="img-div">
+                            <div class="date-box">
+                                <span>22</span>
+                                <span>Aug</span>
+                            </div>
+                            <img class="img-responsive" src="Img/blog-04.jpg" alt="">
+                        </div>
+                        <div class="single-post-text">
+                            <h3>Cloud Computing Class</h3>
+                            <ul class="post-text-list">
+                                <li>By Admin</li>
+                                <li>22Aug, 2019</li>
+                                <li> comments</li>
+                                <li>122 likes</li>
+                            </ul>
+                            <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                                est,
+                                qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                                eius
+                                modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
+                            <div class="btn-text">
+                                Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-post">
+                        <div class="img-div">
+                            <div class="date-box">
+                                <span>22</span>
+                                <span>Aug</span>
+                            </div>
+                            <img class="img-responsive" src="Img/blog-03.jpg" alt="">
+                        </div>
+                        <div class="single-post-text">
+                            <h3>Students in Class Room</h3>
+                            <ul class="post-text-list">
+                                <li>By Admin</li>
+                                <li>22Aug, 2019</li>
+                                <li> comments</li>
+                                <li>122 likes</li>
+                            </ul>
+                            <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                                est,
+                                qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                                eius
+                                modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
+                            <div class="btn-text">
+                                Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-post">
+                        <div class="img-div">
+                            <div class="date-box">
+                                <span>22</span>
+                                <span>Aug</span>
+                            </div>
+                            <img class="img-responsive" src="Img/blog-01.jpg" alt="">
+                        </div>
+                        <div class="single-post-text">
+                            <h3>Amazing Blog Image Post</h3>
+                            <ul class="post-text-list">
+                                <li>By Admin</li>
+                                <li>22Aug, 2019</li>
+                                <li> comments</li>
+                                <li>122 likes</li>
+                            </ul>
+                            <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                                est,
+                                qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                                eius
+                                modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
+                            <div class="btn-text">
+                                Read More
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 single-item-box">
+                        <div class="blog-comment">
+                            <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+                                est,
+                                qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, magnam dolor sit amet,
+                                consectetur adipisicing…</p>
+                            <span>Jhone Done</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link active" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!--START RIGHT BLOG AREA -->
+
+                <div class="col-sm-4 right-blog">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="catagories-item">
+                                <h3 class="zero">Catagories</h3>
+                                <ul class="catagories-text">
+                                    <li><i class="fa fa-angle-right"></i>Branding <span>(23)</span></li>
+                                    <li><i class="fa fa-angle-right"></i>Advices <span>(23)</span></li>
+                                    <li><i class="fa fa-angle-right"></i>Advices <span>(23)</span></li>
+                                    <li><i class="fa fa-angle-right"></i>Audio <span>(23)</span></li>
+                                    <li><i class="fa fa-angle-right"></i>Uncategorized <span>(23)</span></li>
+                                    <li><i class="fa fa-angle-right"></i>Video <span>(23)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="catagories-item">
+                                <h3>Sosial Widget</h3>
+                                <ul class="catagories-text-sosial">
+                                    <li><i class="fa fa-rss"></i>rss feed</li>
+                                    <li><i class="fa fa-twitter"></i>rss feed</li>
+                                    <li><i class="fa fa-facebook-f"></i>rss feed</li>
+                                    <li><i class="fa fa-pinterest"></i>rss feed</li>
+                                    <li><i class="fa fa-instagram"></i>rss feed</li>
+                                    <li><i class="fa fa-google-plus"></i>rss feed</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="catagories-item">
+                                <div style="display: flex; align-items: baseline;">
+                                    <h3>Recent Works</h3>
+                                    <div class="slider-buttons">
+                                        <div id="prev" class="slider-prev"><i class="fa fa-angle-left"></i></div>
+                                        <div id="next" class="slider-next"><i class="fa fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+
+                                <div class="slider-show-box">
+                                    <div id="slider-box" class="slider-box">
+                                        <div class="slider-img-boxes">
+                                            <img src="/Img/recent-work-01.jpg" alt="">
+                                            <img src="/Img/recent-work-02.jpg" alt="">
+                                            <img src="/Img/recent-work-03.jpg" alt="">
+                                            <img src="/Img/recent-work-04.jpg" alt="">
+                                            <img src="/Img/recent-work-05.jpg" alt="">
+                                            <img src="/Img/recent-work-06.jpg" alt="">
+                                        </div>
+                                        <div class="slider-img-boxes">
+                                            <img src="/Img/recent-work-01.jpg" alt="">
+                                            <img src="/Img/recent-work-02.jpg" alt="">
+                                            <img src="/Img/recent-work-03.jpg" alt="">
+                                            <img src="/Img/recent-work-04.jpg" alt="">
+                                            <img src="/Img/recent-work-05.jpg" alt="">
+                                            <img src="/Img/recent-work-06.jpg" alt="">
+                                        </div>
+                                        <div class="slider-img-boxes">
+                                            <img src="/Img/recent-work-01.jpg" alt="">
+                                            <img src="/Img/recent-work-02.jpg" alt="">
+                                            <img src="/Img/recent-work-03.jpg" alt="">
+                                            <img src="/Img/recent-work-04.jpg" alt="">
+                                            <img src="/Img/recent-work-05.jpg" alt="">
+                                            <img src="/Img/recent-work-06.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="catagories-item">
+                                <h3>Resent Post</h3>
+                                <ul class="catagories-text">
+                                    <li>
+                                        <div class="single-recent">
+                                            <div class="img-box-recent">
+                                                <img src="/Img/recent-01.jpg" alt="">
+                                            </div>
+                                            <div class="recent-text">
+                                                <a>There are many variaons of are many ...</a>
+                                                <p>22Aug, 2019 <span class="content"><i
+                                                            class="fa fa-comments"></i>12</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-recent">
+                                            <div class="img-box-recent">
+                                                <img src="/Img/recent-01.jpg" alt="">
+                                            </div>
+                                            <div class="recent-text">
+                                                <a>There are many variaons of are many ...</a>
+                                                <p>22Aug, 2019 <span class="content"><i
+                                                            class="fa fa-comments"></i>12</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-recent">
+                                            <div class="img-box-recent">
+                                                <img src="/Img/recent-01.jpg" alt="">
+                                            </div>
+                                            <div class="recent-text">
+                                                <a>There are many variaons of are many ...</a>
+                                                <p>22Aug, 2019 <span class="content"><i
+                                                            class="fa fa-comments"></i>12</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="single-recent">
+                                            <div class="img-box-recent">
+                                                <img src="/Img/recent-01.jpg" alt="">
+                                            </div>
+                                            <div class="recent-text">
+                                                <a>There are many variaons of are many ...</a>
+                                                <p>22Aug, 2019 <span class="content"><i
+                                                            class="fa fa-comments"></i>12</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="catagories-item">
+                                <h3 class="zero">Papuler tags</h3>
+                                <div class="populer-tags">
+                                    <div class="tagcloud">
+                                        <a href="#">Course</a>
+                                        <a href="#">Education</a>
+                                        <a href="#">Events</a>
+                                        <a href="#">Learning</a>
+                                        <a href="#">Photoshop</a>
+                                        <a href="#">Student</a>
+                                        <a href="#">Teacher</a>
+                                        <a href="#">Audio</a>
+                                        <a href="#">Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
             <div class="container">
-                <div class="blog-post-intro">
-                    <h1 class="">Blog Page</h1>
-                    <span>Home <i class="fa fa-angle-right"></i> <span class="blog-page-small">Blog Page</span> </span>
-                </div>
-
-            </div>
-        </div>
-
-    </nav>
-
-    <!-- START BLOG AREA -->
-
-    <!-- START LEFT BLOG AREA -->
-    <div class="container blog-area">
-        <div class="row">
-            <div class="col-sm-8 left-blog">
-                <div class="single-post">
-                    <div class="img-div post-margin">
-                        <div class="date-box">
-                            <span>22</span>
-                            <span>Aug</span>
-                        </div>
-                        <img class="img-responsive" src="Img/blog-02.jpg" alt="">
-                        <div class="effect"></div>
-                    </div>
-                    <div class="single-post-text">
-                        <h3>Students in Class Room</h3>
-                        <ul class="post-text-list">
-                            <li>By Admin</li>
-                            <li>22Aug, 2019</li>
-                            <li> comments</li>
-                            <li>122 likes</li>
-                        </ul>
-                        <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                            modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
-                        <div class="btn-text">
-                            Read More
-                        </div>
-                    </div>
-                </div>
-                <div class="single-post">
-                    <div class="img-div">
-                        <div class="date-box">
-                            <span>22</span>
-                            <span>Aug</span>
-                        </div>
-                        <img class="img-responsive" src="Img/blog-04.jpg" alt="">
-                    </div>
-                    <div class="single-post-text">
-                        <h3>Cloud Computing Class</h3>
-                        <ul class="post-text-list">
-                            <li>By Admin</li>
-                            <li>22Aug, 2019</li>
-                            <li> comments</li>
-                            <li>122 likes</li>
-                        </ul>
-                        <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                            modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
-                        <div class="btn-text">
-                            Read More
-                        </div>
-                    </div>
-                </div>
-                <div class="single-post">
-                    <div class="img-div">
-                        <div class="date-box">
-                            <span>22</span>
-                            <span>Aug</span>
-                        </div>
-                        <img class="img-responsive" src="Img/blog-03.jpg" alt="">
-                    </div>
-                    <div class="single-post-text">
-                        <h3>Students in Class Room</h3>
-                        <ul class="post-text-list">
-                            <li>By Admin</li>
-                            <li>22Aug, 2019</li>
-                            <li> comments</li>
-                            <li>122 likes</li>
-                        </ul>
-                        <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                            modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
-                        <div class="btn-text">
-                            Read More
-                        </div>
-                    </div>
-                </div>
-                <div class="single-post">
-                    <div class="img-div">
-                        <div class="date-box">
-                            <span>22</span>
-                            <span>Aug</span>
-                        </div>
-                        <img class="img-responsive" src="Img/blog-01.jpg" alt="">
-                    </div>
-                    <div class="single-post-text">
-                        <h3>Amazing Blog Image Post</h3>
-                        <ul class="post-text-list">
-                            <li>By Admin</li>
-                            <li>22Aug, 2019</li>
-                            <li> comments</li>
-                            <li>122 likes</li>
-                        </ul>
-                        <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                            modi tempora incidunt. Minim veniam, quis nostrud exercitation ullamco laboris nisi…</p>
-                        <div class="btn-text">
-                            Read More
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 single-item-box">
-                    <div class="blog-comment">
-                        <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quiaolor sit amet, consectetur, adipisci velit, magnam dolor sit amet,
-                            consectetur adipisicing…</p>
-                        <span>Jhone Done</span>
-                    </div>
-                </div>
-                <div class="col-sm-12 text-center">
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </li>
-                            <li class="page-item active"><a class="page-link active" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
-                                    <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <!--START RIGHT BLOG AREA -->
-
-            <div class="col-sm-4 right-blog">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <div class="catagories-item">
-                            <h3 class="zero">Catagories</h3>
-                            <ul class="catagories-text">
-                                <li><i class="fa fa-angle-right"></i>Branding <span>(23)</span></li>
-                                <li><i class="fa fa-angle-right"></i>Advices <span>(23)</span></li>
-                                <li><i class="fa fa-angle-right"></i>Advices <span>(23)</span></li>
-                                <li><i class="fa fa-angle-right"></i>Audio <span>(23)</span></li>
-                                <li><i class="fa fa-angle-right"></i>Uncategorized <span>(23)</span></li>
-                                <li><i class="fa fa-angle-right"></i>Video <span>(23)</span></li>
+                    <div class=" col-sm-12 footer-content-box">
+                        <div class="col-sm-3">
+                            <h3><span><i class="fa fa-graduation-cap footer-h-icon"></i></span> EduRead</h3>
+                            <p>We are Educatios, creat your passion and inspiration. And hope success will come for your
+                                dream. Please send email and get latest news.</p>
+                            <ul class="list-unstyled">
+                                <li><span><i class="fa fa-phone footer-icon"></i></span>0123-456-789</li>
+                                <li><span><i class="fa fa-envelope footer-icon"></i></span>hello@education.com</li>
+                                <li><span><i class="fa fa-map-marker footer-icon"></i></span>01 Central Park, NYC</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="catagories-item">
-                            <h3>Sosial Widget</h3>
-                            <ul class="catagories-text-sosial">
-                                <li><i class="fa fa-rss"></i>rss feed</li>
-                                <li><i class="fa fa-twitter"></i>rss feed</li>
-                                <li><i class="fa fa-facebook-f"></i>rss feed</li>
-                                <li><i class="fa fa-pinterest"></i>rss feed</li>
-                                <li><i class="fa fa-instagram"></i>rss feed</li>
-                                <li><i class="fa fa-google-plus"></i>rss feed</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="catagories-item">
-                            <div style="display: flex; align-items: baseline;">
-                                <h3>Recent Works</h3>
-                                <div class="slider-buttons">
-                                    <div id="prev" class="slider-prev"><i class="fa fa-angle-left"></i></div>
-                                    <div id="next" class="slider-next"><i class="fa fa-angle-right"></i></div>
-                                </div>
-                            </div>
 
-                            <div class="slider-show-box">
-                                <div id="slider-box" class="slider-box">
-                                    <div class="slider-img-boxes">
-                                        <img src="/Img/recent-work-01.jpg" alt="">
-                                        <img src="/Img/recent-work-02.jpg" alt="">
-                                        <img src="/Img/recent-work-03.jpg" alt="">
-                                        <img src="/Img/recent-work-04.jpg" alt="">
-                                        <img src="/Img/recent-work-05.jpg" alt="">
-                                        <img src="/Img/recent-work-06.jpg" alt="">
-                                    </div>
-                                    <div class="slider-img-boxes">
-                                        <img src="/Img/recent-work-01.jpg" alt="">
-                                        <img src="/Img/recent-work-02.jpg" alt="">
-                                        <img src="/Img/recent-work-03.jpg" alt="">
-                                        <img src="/Img/recent-work-04.jpg" alt="">
-                                        <img src="/Img/recent-work-05.jpg" alt="">
-                                        <img src="/Img/recent-work-06.jpg" alt="">
-                                    </div>
-                                    <div class="slider-img-boxes">
-                                        <img src="/Img/recent-work-01.jpg" alt="">
-                                        <img src="/Img/recent-work-02.jpg" alt="">
-                                        <img src="/Img/recent-work-03.jpg" alt="">
-                                        <img src="/Img/recent-work-04.jpg" alt="">
-                                        <img src="/Img/recent-work-05.jpg" alt="">
-                                        <img src="/Img/recent-work-06.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="col-sm-2">
+                            <h3>Courses</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Web
+                                        Design</a></li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Apps
+                                        Developer</a></li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Graphic
+                                        Design</a></li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>PHP
+                                        Tranning</a></li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>IOS
+                                        Developer</a></li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>App
+                                        Design</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="catagories-item">
-                            <h3>Resent Post</h3>
-                            <ul class="catagories-text">
-                                <li>
-                                    <div class="single-recent">
-                                        <div class="img-box-recent">
-                                            <img src="/Img/recent-01.jpg" alt="">
-                                        </div>
-                                        <div class="recent-text">
-                                            <a>There are many variaons of are many ...</a>
-                                            <p>22Aug, 2019 <span class="content"><i class="fa fa-comments"></i>12</span>
-                                            </p>
-                                        </div>
-                                    </div>
+
+                        <div class="col-sm-2">
+                            <h3>Links</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>About
+                                        Us</a>
                                 </li>
-                                <li>
-                                    <div class="single-recent">
-                                        <div class="img-box-recent">
-                                            <img src="/Img/recent-01.jpg" alt="">
-                                        </div>
-                                        <div class="recent-text">
-                                            <a>There are many variaons of are many ...</a>
-                                            <p>22Aug, 2019 <span class="content"><i class="fa fa-comments"></i>12</span>
-                                            </p>
-                                        </div>
-                                    </div>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Teacher</a>
                                 </li>
-                                <li>
-                                    <div class="single-recent">
-                                        <div class="img-box-recent">
-                                            <img src="/Img/recent-01.jpg" alt="">
-                                        </div>
-                                        <div class="recent-text">
-                                            <a>There are many variaons of are many ...</a>
-                                            <p>22Aug, 2019 <span class="content"><i class="fa fa-comments"></i>12</span>
-                                            </p>
-                                        </div>
-                                    </div>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Blog</a>
                                 </li>
-                                <li>
-                                    <div class="single-recent">
-                                        <div class="img-box-recent">
-                                            <img src="/Img/recent-01.jpg" alt="">
-                                        </div>
-                                        <div class="recent-text">
-                                            <a>There are many variaons of are many ...</a>
-                                            <p>22Aug, 2019 <span class="content"><i class="fa fa-comments"></i>12</span>
-                                            </p>
-                                        </div>
-                                    </div>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Events</a>
+                                </li>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Gallery</a>
+                                </li>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Contact</a>
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="catagories-item">
-                            <h3 class="zero">Papuler tags</h3>
-                            <div class="populer-tags">
-                                <div class="tagcloud">
-                                    <a href="#">Course</a>
-                                    <a href="#">Education</a>
-                                    <a href="#">Events</a>
-                                    <a href="#">Learning</a>
-                                    <a href="#">Photoshop</a>
-                                    <a href="#">Student</a>
-                                    <a href="#">Teacher</a>
-                                    <a href="#">Audio</a>
-                                    <a href="#">Video</a>
+
+                        <div class="col-sm-2">
+                            <h3>Support</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Documentation</a>
+                                </li>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Forums</a>
+                                </li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Language
+                                        Packs</a></li>
+                                <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Release
+                                        Status</a></li>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Documentation</a>
+                                </li>
+                                <li><a href="#"><span><i
+                                                class="fa fa-long-arrow-right footer-icon"></i></span>Forums</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h3>Get in touch</h3>
+                            <p>Enter your email and we'll send you more information.</p>
+
+                            <form action="#">
+                                <div class="form-group">
+                                    <input placeholder="Your Email" type="email" required="">
+                                    <div class="submit-btn">
+                                        <button type="submit" class="text-center">Subscribe</button>
+                                    </div>
                                 </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom-inner">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 footer-no-padding">
+                                <p>© Copyright 2019 EcologyTheme | All rights reserved</p>
+                            </div>
+                            <div class="col-md-6 col-sm-12 footer-no-padding">
+                                <ul class="list-unstyled footer-menu text-right">
+                                    <li>Follow us:</li>
+                                    <li><i class="fa fa-facebook facebook"></i></li>
+                                    <li><i class="fa fa-twitter twitter"></i></li>
+                                    <li><i class="fa fa-instagram instagram"></i></li>
+                                    <li><i class="fa fa-google-plus google"></i></li>
+                                    <li><i class="fa fa-skype skype"></i></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class=" col-sm-12 footer-content-box">
-                    <div class="col-sm-3">
-                        <h3><span><i class="fa fa-graduation-cap footer-h-icon"></i></span> EduRead</h3>
-                        <p>We are Educatios, creat your passion and inspiration. And hope success will come for your
-                            dream. Please send email and get latest news.</p>
-                        <ul class="list-unstyled">
-                            <li><span><i class="fa fa-phone footer-icon"></i></span>0123-456-789</li>
-                            <li><span><i class="fa fa-envelope footer-icon"></i></span>hello@education.com</li>
-                            <li><span><i class="fa fa-map-marker footer-icon"></i></span>01 Central Park, NYC</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-2">
-                        <h3>Courses</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Web
-                                    Design</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Apps
-                                    Developer</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Graphic
-                                    Design</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>PHP
-                                    Tranning</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>IOS
-                                    Developer</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>App
-                                    Design</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-2">
-                        <h3>Links</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>About Us</a>
-                            </li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Teacher</a>
-                            </li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Blog</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Events</a>
-                            </li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Gallery</a>
-                            </li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-2">
-                        <h3>Support</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span><i
-                                            class="fa fa-long-arrow-right footer-icon"></i></span>Documentation</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Forums</a>
-                            </li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Language
-                                    Packs</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Release
-                                    Status</a></li>
-                            <li><a href="#"><span><i
-                                            class="fa fa-long-arrow-right footer-icon"></i></span>Documentation</a></li>
-                            <li><a href="#"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Forums</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-3">
-                        <h3>Get in touch</h3>
-                        <p>Enter your email and we'll send you more information.</p>
-
-                        <form action="#">
-                            <div class="form-group">
-                                <input placeholder="Your Email" type="email" required="">
-                                <div class="submit-btn">
-                                    <button type="submit" class="text-center">Subscribe</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom-inner">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 footer-no-padding">
-                            <p>© Copyright 2019 EcologyTheme | All rights reserved</p>
-                        </div>
-                        <div class="col-md-6 col-sm-12 footer-no-padding">
-                            <ul class="list-unstyled footer-menu text-right">
-                                <li>Follow us:</li>
-                                <li><i class="fa fa-facebook facebook"></i></li>
-                                <li><i class="fa fa-twitter twitter"></i></li>
-                                <li><i class="fa fa-instagram instagram"></i></li>
-                                <li><i class="fa fa-google-plus google"></i></li>
-                                <li><i class="fa fa-skype skype"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 
 </body>
