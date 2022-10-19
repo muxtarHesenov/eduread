@@ -89,7 +89,7 @@ h3 {
 .banner {
     object-fit: cover;
     width: 100%;
-    min-height: 360px;
+    height: 360px;
     position: absolute;
     z-index: 1;
 
@@ -276,7 +276,9 @@ h3 {
     background: #292929;
     margin-top: 44px;
     transition: 500ms;
+    
 }
+
 
 .mean-nav ul {
     padding: 0;
@@ -284,6 +286,7 @@ h3 {
     width: 100%;
     list-style-type: none;
     transition: 500ms;
+    transition: .5s all linear;
 }
 
 .nav:before {
@@ -296,6 +299,7 @@ h3 {
     float: left;
     width: 100%;
     transition: 500ms;
+    transition: .5s all linear;
 }
 
 .mean-nav ul li a {
@@ -311,6 +315,10 @@ h3 {
     text-decoration: none;
     text-transform: uppercase;
     transition: 500ms;
+}
+
+#mobil-list {
+    transition: .5s all linear;
 }
 
 .mean-nav ul {
@@ -517,7 +525,7 @@ h3 {
     transition: 500ms;
 }
 
-.img-div::before {
+/* .img-div::before {
     content: "";
     background: rgba(0, 0, 0, 0.5);
     height: 400px;
@@ -527,10 +535,11 @@ h3 {
     z-index: 9;
     display: none;
     transition: 500ms;
-}
+} */
 
 .img-div:hover.img-div img {
     scale: 1.1;
+    filter: brightness(0.50);
 }
 
 .img-div:hover::before {
@@ -924,6 +933,8 @@ footer {
     border-bottom: 1px solid #a0a0a0;
     padding: 0 0 50px 0;
     color: #a0a0a0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-content-box h3 {

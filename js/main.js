@@ -36,6 +36,8 @@ prev.addEventListener("click", () => {
 const open = document.getElementById('open-mobile');
 const close = document.getElementById('close-mobile');
 const mobilList = document.getElementById('mobil-list');
+const meanNav = document.getElementsByClassName('mean-nav')[0];
+
 
 open.addEventListener('click', () => {
     open.style.display = "none";
@@ -86,19 +88,20 @@ const blogList = document.getElementById('blog-list');
 
 
 
-
-homePlus.addEventListener('click',() => {
+homePlus.addEventListener('click', () => {
+    meanNav.style.overflow = 'visible';
     if (homeList.style.display == 'none') {
-        homeList.style.transition = 500 + 'ms'
         homeList.style.display = 'block';
         homePlus.innerHTML = '-';
     } else {
         homeList.style.display = 'none';
         homePlus.innerHTML = '+';
+
     }
 });
 
-coursePlus.addEventListener('click',() => {
+coursePlus.addEventListener('click', () => {
+
     if (courseList.style.display == 'none') {
         courseList.style.display = 'block';
         coursePlus.innerHTML = '-';
@@ -108,7 +111,7 @@ coursePlus.addEventListener('click',() => {
     }
 });
 
-coursePlus2.addEventListener('click',() => {
+coursePlus2.addEventListener('click', () => {
     if (courseList2.style.display == 'none') {
         courseList2.style.display = 'block';
         coursePlus2.innerHTML = '-';
@@ -118,7 +121,7 @@ coursePlus2.addEventListener('click',() => {
     }
 });
 
-coursePlus3.addEventListener('click',() => {
+coursePlus3.addEventListener('click', () => {
     if (courseList3.style.display == 'none') {
         courseList3.style.display = 'block';
         coursePlus3.innerHTML = '-';
@@ -128,7 +131,8 @@ coursePlus3.addEventListener('click',() => {
     }
 });
 
-eventPlus.addEventListener('click',() => {
+eventPlus.addEventListener('click', () => {
+
     if (eventList.style.display == 'none') {
         eventList.style.display = 'block';
         eventPlus.innerHTML = '-';
@@ -138,7 +142,7 @@ eventPlus.addEventListener('click',() => {
     }
 });
 
-pagesPlus.addEventListener('click',() => {
+pagesPlus.addEventListener('click', () => {
     if (pagesList.style.display == 'none') {
         pagesList.style.display = 'block';
         pagesPlus.innerHTML = '-';
@@ -148,7 +152,7 @@ pagesPlus.addEventListener('click',() => {
     }
 });
 
-pagesPlus2.addEventListener('click',() => {
+pagesPlus2.addEventListener('click', () => {
     if (pagesList2.style.display == 'none') {
         pagesList2.style.display = 'block';
         pagesPlus2.innerHTML = '-';
@@ -158,7 +162,7 @@ pagesPlus2.addEventListener('click',() => {
     }
 });
 
-pagesPlus3.addEventListener('click',() => {
+pagesPlus3.addEventListener('click', () => {
     if (pagesList3.style.display == 'none') {
         pagesList3.style.display = 'block';
         pagesPlus3.innerHTML = '-';
@@ -168,7 +172,7 @@ pagesPlus3.addEventListener('click',() => {
     }
 });
 
-teachersPlus.addEventListener('click',() => {
+teachersPlus.addEventListener('click', () => {
     if (teachersList.style.display == 'none') {
         teachersList.style.display = 'block';
         teachersPlus.innerHTML = '-';
@@ -178,7 +182,7 @@ teachersPlus.addEventListener('click',() => {
     }
 });
 
-blogPlus.addEventListener('click',() => {
+blogPlus.addEventListener('click', () => {
     if (blogList.style.display == 'none') {
         blogList.style.display = 'block';
         blogPlus.innerHTML = '-';
@@ -192,14 +196,14 @@ blogPlus.addEventListener('click',() => {
 
 let body = document.getElementsByTagName('body')[0];
 let navHeader = document.getElementById('nav-header');
-let meanBar = document.getElementsByClassName('mean-bar')[0] ;
+let meanBar = document.getElementsByClassName('mean-bar')[0];
 
 let fullPage = document.getElementById('fullPage');
 
 
 window.addEventListener('scroll', () => {
 
-    if(window.scrollY > 100) {
+    if (window.scrollY > 100) {
         navHeader.style.backgroundColor = 'white';
         navHeader.style.color = 'black';
         navHeader.style.position = 'fixed';
@@ -209,7 +213,7 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener('scroll', () => {
 
-    if(window.scrollY < 100) {
+    if (window.scrollY < 100) {
         navHeader.style.backgroundColor = 'transparent';
         navHeader.style.color = 'white';
         navHeader.style.position = 'relative';
