@@ -41,16 +41,22 @@
 @media only screen and (max-width: 650px) {
   .connect {
     margin-left: 0px;
+    font-size: 12px;
   }
 
   .login {
     margin-right: 1%;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .second-header i {
+    margin-left: 10px;
   }
 }
 
 @media only screen and (max-width: 470px) {
   .second-header i {
-    margin-left: 2px;
+    margin-left: 10px;
   }
 
   .second-header {

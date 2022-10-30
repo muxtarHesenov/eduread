@@ -69,6 +69,7 @@ h3 {
 
 .connect {
     margin-left: 10%;
+
 }
 
 .login {
@@ -637,6 +638,10 @@ h3 {
 
 
 
+
+
+
+
 .catagories-item h3 {
     line-height: 26px;
     margin: 0;
@@ -646,6 +651,13 @@ h3 {
     font-weight: 700;
     margin-top: 50px;
 }
+
+
+.padding-post-center {
+    padding: 0px 35px;
+    box-sizing: border-box;
+}
+
 
 .zero {
     margin-top: 0 !important;
@@ -923,7 +935,7 @@ h3 {
 /* FOOTER */
 
 footer {
-    background: transparent url(/Img/footer-bg.jpg) no-repeat center center/cover;
+    background: transparent url(../Img/footer-bg.jpg) no-repeat center center/cover;
     width: 100%;
     min-height: 150px;
     padding-top: 100px;
